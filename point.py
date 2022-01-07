@@ -11,3 +11,8 @@ def foo(x):
 
 def bar(x):
     return T(0).baz(x)
+
+
+def spurious_function(x):
+    x = 0
+    return 1
