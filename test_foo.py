@@ -1,4 +1,10 @@
 import point
+import pytest
+
+class MyTest(unittest.TestCase):
+    def test_method1(self):
+        assert point.foo(10) == 11
+        
 def test_foo():
     assert point.foo(10) == 11
 
